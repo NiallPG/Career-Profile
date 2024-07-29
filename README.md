@@ -1,3 +1,3 @@
 Simple website
 
-https://niallpg.github.io/Resume/
+https://niallpg.github.io/Career-Profile/
