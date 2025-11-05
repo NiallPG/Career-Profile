@@ -1,9 +1,14 @@
+html, body {
+    overscroll-behavior-y: none;
+}
+
 body {
     background: #f5f6f7;
     color: #1b1b32;
     font-family: Helvetica;
     margin: 0;
 }
+
 header {
     width: 100%;
     height: 50px;
@@ -13,10 +18,12 @@ header {
     align-items: center;
     position: fixed;
     top: 0;
-  }
+}
+
 main {
     padding-top: 50px;
 }
+
 section {
     width: 80%;
     margin: 0 auto 10px auto;
@@ -27,6 +34,7 @@ section {
     padding: 0.4rem;
     color: #f5f6f7;
 }
+
 h2 {
     border-bottom: 4px solid #dfdfe2;
 }
@@ -35,6 +43,7 @@ h3 {
     margin-bottom: 5px; 
 
 }
+
 p {
     margin-top: 5px; 
 }
