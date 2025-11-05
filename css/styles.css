@@ -1,8 +1,15 @@
-html, body {
+html {
     overscroll-behavior-y: none;
+    overflow-y: scroll;
+    height: 100%;
 }
 
 body {
+    overscroll-behavior-y: none;
+    position: fixed;
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
     background: #f5f6f7;
     color: #1b1b32;
     font-family: Helvetica;
@@ -41,57 +48,60 @@ h2 {
 
 h3 {
     margin-bottom: 5px; 
-
 }
 
 p {
     margin-top: 5px; 
 }
+
 .fitclass {
     display: flex;
     align-items: center;
-    padding:0;
+    padding: 0;
     margin-top: -10px;
 }
+
 .nontitle {
     height: 75px;
     width: 75px;
 }
+
 span {
     padding-left: 5px;
 }
+
 nav {
     width: 50%;
     max-width: 400px;
     height: 50px;
-    }
+}
 
 nav > ul {
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
-align-items: center;
-padding-inline-start: 0;
-margin-block: 0;
-height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
 }
 
 nav > ul > li {
-color: #dfdfe2;
-margin: 0 0.2rem;
-padding: 0.2rem;
-display: block;
+    color: #dfdfe2;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
 }
 
 nav > ul > li:hover {
-background-color: #dfdfe2;
-color: #1b1b32;
-cursor: pointer;
+    background-color: #dfdfe2;
+    color: #1b1b32;
+    cursor: pointer;
 }
 
 li > a {
-color: inherit;
-text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 footer {
@@ -104,6 +114,7 @@ footer,
 footer a {
     color: #dfdfe2;
 }
+
 address {
     text-align: center;
     padding: 0.3em;
@@ -113,6 +124,7 @@ address {
     text-decoration: none;
     color: #1b1b32;
 }
+
 .lnk:hover {
     cursor: pointer;
     color: #f5f6f7;
