@@ -28,6 +28,7 @@ main {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior-y: none;
+    padding-bottom: 20px;
 }
 
 section {
